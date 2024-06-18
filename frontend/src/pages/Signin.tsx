@@ -1,11 +1,13 @@
 import React from 'react'
-import Appbar from '../components/Appbar'
+
+import Auth from '../components/Auth'
 
 const Signin = () => {
   return (
     <div>
-      <Appbar />
-      
+      <div>
+        <Auth type="signin"/>
+      </div>
     </div>
   )
 }
