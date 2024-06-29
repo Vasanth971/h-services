@@ -1,0 +1,19 @@
+/* General styles for tour container */
+.tour-custom-container .ant-tour-content {
+    max-width: 400px;
+    width: 100%;
+    margin: 10px auto; /* Center horizontally and provide a small margin */
+}
+
+/* Media query to apply custom styles for mobile view */
+@media (max-width: 768px) {
+    .ant-tour-content {
+        max-width: 410px !important;
+        width: 100% !important;
+    }
+    .tour-custom-container {
+        max-width: 410px; /* Adjusted max-width for better fit */
+        width: 100%;
+        margin: 10px auto; /* Center horizontally and provide a small margin */
+    }
+}

@@ -1,12 +1,13 @@
 import React from 'react'
 import Auth from '../components/Auth'
+import Navbar from '../components/Navbar'
 
 
 const Signup = () => {
   return (
     <div>
-      <Auth type="signup"/>
-       
+       <Navbar />
+      <Auth type="signup"/>       
     </div>
   )
 }
